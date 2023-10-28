@@ -1,0 +1,45 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "NodesThemes market place template, basic version.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -r esm server.js"
+  },
+  "keywords": [
+    "next.js",
+    "next",
+    "express",
+    "strapi",
+    "head-less",
+    "head",
+    "less",
+    "react",
+    "react.js",
+    "nest.js",
+    "vue",
+    "static",
+    "web-app",
+    "web",
+    "app",
+    "e-commerce",
+    "e",
+    "commerce",
+    "ecommerce"
+  ],
+  "author": "Mohammad Shanewaz Al Maruf",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "concurrently": "^8.2.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "esm": "^3.2.25",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^6.7.3",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.1"
+  }
+}
