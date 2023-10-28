@@ -1,6 +1,8 @@
+
 {
   "name": "server",
   "version": "1.0.0",
+  "type": "module",
   "description": "NodesThemes market place template, basic version.",
   "main": "index.js",
   "scripts": {
