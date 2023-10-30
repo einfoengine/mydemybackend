@@ -22,7 +22,7 @@ const connectDB = async () => {
 connectDB();
 
 // Middleware
-app.use(cors("http://localhost:3000/"));
+app.use(cors());
 app.use(express.json());
 
 // Route

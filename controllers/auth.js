@@ -11,7 +11,7 @@ export const register = async (req, res) => {
             return res.status(400).send("Error: Incorrect credential denial!");
         }
         const hashed = await hassPassword(pass);
-        const user = new User({
+        const user = await new User({
             name, email, number, pass: hashed
         }).save();
         console.log("Register user successful! ", user);
